@@ -1,0 +1,45 @@
+Psuedocode for Pay_report Module: 
+
+This function is used to view pay report of all the employees working in the Marspro   Organisation. 
+
+ 
+
+void SALARY::salary_view() 
+
+for (std::list<SALARY>::iterator it = empsal_list.begin(); it != empsal_list.end(); ++it) 
+
+{ 
+
+if(it->project id 1==0) 
+
+it->pr_bonus=0; 
+
+else 
+
+{ 
+
+it->pr_bonus =( 45*working hours per day*working days per month)+(project 1 working hours*10)+(project 2 working hours*10)+( project 3 working hours*10) 
+
+} 
+
+it->epf = (salary*8.5)/100; 
+
+it->income_tax = (((salaryl*12)*15)/100)/12; 
+
+it->fi_salary = (sal+bonus) - it->income_tax - it->epf; 
+
+Here it displays emp_id, emp_name, fi_salary,epf,income tax of all the employees on the screen. 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

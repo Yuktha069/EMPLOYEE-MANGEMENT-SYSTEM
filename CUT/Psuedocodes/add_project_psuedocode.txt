@@ -1,0 +1,15 @@
+//pseudo code for add project module
+
+start module
+set variable another to y
+while another equal to y then
+   read project_name,project_id and no.of working hours
+   write the data to the file
+   display add another record,read yes or no
+   if yes then
+       read project_name,project_id and no.of working hours
+   else
+       return
+   endif
+end while
+end module

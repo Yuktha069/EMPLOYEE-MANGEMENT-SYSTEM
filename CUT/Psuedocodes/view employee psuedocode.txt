@@ -1,0 +1,9 @@
+//psuedo code for view employee module
+
+start module
+display employee name,age and basic salary
+read file
+while data in file then
+display name,age,and basic salary
+end while
+end module

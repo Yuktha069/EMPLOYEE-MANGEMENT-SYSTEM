@@ -1,0 +1,20 @@
+//pseudocode for edit employee module
+
+start module
+set variable another to y
+while another equal to y
+read employee name to modify
+read file
+if empname is equal to name entered then
+read new name,age,and basic salary
+write the data to the file
+end if 
+end while
+display edit another record
+read yes or no
+if yes then
+read employee name to edit
+else
+return
+endif
+end module

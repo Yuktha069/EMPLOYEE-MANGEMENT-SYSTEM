@@ -1,0 +1,15 @@
+//pseudo code for add employee module
+
+start module
+set variable another to y
+while another equal to y then
+   read name,ageand basic salary
+   write the data to the file
+   display add another record,read yes or no
+   if yes then
+       read name,age and basic salary
+   else
+       return
+   endif
+end while
+end module

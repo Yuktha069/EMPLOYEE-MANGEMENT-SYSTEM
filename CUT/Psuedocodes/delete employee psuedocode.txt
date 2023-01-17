@@ -1,0 +1,27 @@
+//Psuedo code for delete module
+
+start module
+set variable another to y
+while another equal to y
+read employee name to delete
+set file pointer ft to the file temp.dat
+while data in file then
+ifempname is not equal to the name entered then
+write the data to the file pointed by file pointer ft
+end if
+end while
+closefilepointerfp
+closefilepointerft
+remove emp.dat
+rename emp.dat
+rename temp.dat to emp.dat
+setfilepointerfp to the file emp.dat
+display delete another record
+read yes or no
+if yes then
+read employee name to delete
+else
+return
+end if
+end while
+end module

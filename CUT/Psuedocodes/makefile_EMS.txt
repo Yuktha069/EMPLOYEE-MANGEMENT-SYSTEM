@@ -1,0 +1,20 @@
+//makefile
+
+  CC = g++
+  CFLAGS = -wall -g
+
+  all: Logger  Emp_details
+
+  main: main.o Logger.o Emp_details.o
+  $(CC) $(CFLAGS) -o main main.o Logger.o Emp_details.o
+
+  main.o: main.cpp Logger.h Emp_details.h
+  $(CC) $(CFLAGS) -c main.cpp
+
+  Logger.o: Logger.h
+
+  Emp_details.o: Emp_details.h Logger.h
+
+  clean:
+         rm *.o Logger Emp_details
+                                    

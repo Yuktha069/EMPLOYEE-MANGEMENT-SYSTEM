@@ -1,0 +1,9 @@
+//psuedo code for view project module
+
+start module
+display project name,project_id and no.of working hours
+read file
+while data in file then
+display name,project_id,and no.of working hours
+end while
+end module

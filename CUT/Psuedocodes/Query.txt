@@ -1,0 +1,55 @@
+Pseudocode for Query Module:   
+
+This function displays all the projects which have highest number of team members. 
+
+Void PROJECT:: project_query() 
+
+ 
+
+{ 
+
+if(pr_list is empty) 
+
+{ 
+
+Checks whether the project list Is empty or not. If It empty then the system returns Project list is empty. 
+
+} 
+
+Std::list<PROJECT>::Iterator st=pr_list.begin(); 
+
+Highest_no will be equal to st-> team_mem. 
+
+for(PROJECT st:pr_list) 
+
+{ 
+
+If(highest_no is less than or equal to st.team_mem) 
+
+{ 
+
+highest_no equal to st.team_mem 
+
+} 
+
+} 
+
+Pr_id, name , team_mem are displayed on the output screen. 
+
+For(PROJECT st:pr_list) 
+
+{ 
+
+If(st.team_mem is equal to highest_no) 
+
+{ 
+
+It will display all the projects with highest number of team members. 
+
+} 
+
+} 
+
+} 
+
+ 
