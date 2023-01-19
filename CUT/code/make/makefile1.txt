@@ -1,0 +1,28 @@
+all: employee
+
+employee: main.o menu.o proj_func.o file_func.o edit_func.o func.o methods.o
+        g++ -pthread -o main main.o menu.o proj_func.o file_func.o edit_func.o func.o methods.o
+
+main.o: main.cpp
+        g++ -c personnel.hpp main.cpp
+
+menu.o: menu.cpp
+        g++ -c personnel.hpp menu.cpp
+
+proj_func.o: proj_func.cpp
+        g++ -c personnel.hpp proj_func.cpp
+
+file_func.o: file_func.cpp
+        g++ -c personnel.hpp file_func.cpp
+
+edit_func.o: edit_func.cpp
+        g++ -c personnel.hpp edit_func.cpp
+
+func.o: func.cpp
+        g++ -c personnel.hpp func.cpp
+
+methods.o: methods.cpp
+        g++ -c personnel.hpp methods.cpp
+
+clean:
+        rm *.o
